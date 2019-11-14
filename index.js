@@ -43,7 +43,7 @@ function cb (err, response, body) {
     console.log('error:' error);
   }
     var bibleverse = JSON.parse(body)
-    if (bibleverse.message === 'searchStr not found)
+    if (bibleverse.message === 'searchStr not found')
         {
           result = 'Unable to get verse '+bibleverse.message;
         }
